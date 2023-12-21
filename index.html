@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!--=============== BOX ICON ===============-->
+    <link rel="stylesheet" href="boxicons.min.css">
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+     <!--=============== LINK SWIOER'S CSS ===============-->
+     <link rel="stylesheet" href="swiper-bundle.min.css"/>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Dinner Pride</title>
+    <!--=============== WEBSITE SEO ===============-->
+
+  </head>
+  <body>
+   <!--=============== PRELOADER ===============-->
+
+   <!--=============== SPLASH SCREEN ===============-->
+   <div class="intro">
+      <h1 class="logo-header">
+        <span class="Nlogo" style="color: #fff">PRIDE</span>&nbsp;<span class="Nlogo" style="color: #fff">PlastiKraft<span>
+      </h1>
+    </div>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="#" class="nav__logo">
+            Dinner Pride
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active">Home</a></li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                <a href="#product" class="nav__link"> Product <i class="ri-arrow-down-s-line dropdown__arrow"></i></a>
+               
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="DinnerSet.html" class="dropdown__link">
+                   Dinner Set
+                  </a>
+                </li>
+
+                <li>
+                  <a href="PlatesSet.html" class="dropdown__link">
+                   Plates Set
+                  </a>
+                </li>
+
+                <li>
+                  <a href="LooseItem.html" class="dropdown__link">
+                   Loose Item
+                  </a>
+                </li>
+
+                <li>
+                  <a href="ColorItem.html" class="dropdown__link">
+                   Color Product
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="About.html" class="nav__link">About Us</a></li>
+            <li><a href="#contact" class="nav__link">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--=============== SLIDER ===============-->
+    <section class="main swiper mySwiper" id="home">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="Images/img1.jpg" alt="Dinner Set" class="image" />
+          <div class="image-data">
+            <span class="text">Melamine</span>
+            <h2>
+              DINNER SET<br/>
+            </h2>
+            <a href="DinnerSet.html" class="button">See More</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="Images/img2.jpg" alt="Color Product" class="image" />
+          <div class="image-data">
+            <span class="text">Melamine</span>
+            <h2>
+              COLOR PRODUCT<br/>
+            </h2>
+            <a href="ColorItem.html" class="button">See More</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="Images/img3.jpg" alt="Loose Item" class="image" />
+          <div class="image-data">
+            <span class="text">Melamine</span>
+            <h2>
+              LOOSE ITEM<br/>
+            </h2>
+            <a href="LooseItem.html" class="button">See More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!--=============== PRODUCT SECTION ===============-->
+    <section class="product" id="product">
+      <h2 class="heading">Our <span>Product</span></h2>
+
+      <div class="product-container">
+        <div class="product-box">
+          <h3>Melamine Color Product</h3>
+            <img src="Images/bowls set.jpg" class="Pimage" alt="Color Product" srcset="">
+          <a href="ColorItem.html" class="btn">See More</a>
+        </div>
+
+        <div class="product-box">
+          <h3>Melamine Plates Set</h3>
+          <img src="Images/Loose Item.jpg" class="Pimage" alt="Plate Set" srcset="">
+          <a href="PlatesSet.html" class="btn">See More</a>
+        </div>
+        <br>
+        <div class="product-box">
+          <h3>Melamine Dinner Set</h3>
+          <img src="Images/Plate Set.jpg" class="Pimage" alt="Dinner Set" srcset="">
+          <a href="DinnerSet.html" class="btn">See More</a>
+        </div>
+
+        <div class="product-box">
+          <h3>Melamine Loose Item</h3>
+          <img src="Images/Loose Item.jpg" class="Pimage" alt="Melamine Loose Item" srcset="">
+          <a href="LooseItem.html" class="btn">See More</a>
+        </div>
+         </div>
+    </section>
+    <!--=============== CONTACT FORM ===============-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Us</span></h2>
+
+      <form action="">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" required autocomplete="off">
+          <input type="email" placeholder="demo@mail.com" required autocomplete="off">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" required autocomplete="off">
+          <input type="text" placeholder="Email Subject" required autocomplete="off">
+        </div>
+        <textarea class="textarea2" name="" id="" cols="30" rows="10" placeholder="Your Message" required autocomplete="off"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+    <!--=============== FOOTER SECTION ===============-->
+    <footer class="footer">
+      <div class="footer-text">
+          <p>Copyright &copy; 2023 by PRIDE PlastiKraft | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#home"><i class="ri-arrow-up-line"></i></a>
+        </div>
+      </footer>
+    <!--=============== SOCIAL ICON ===============-->
+    <div class="social-icons">
+      <img src="Images/whatsapp-logo-24.png" alt="Whatsapp" onclick="location.href='https://www.youtube.com/'">
+      <img src="Images/instagram-logo-24.png" alt="Instagram" onclick="location.href='https://www.youtube.com/'">
+      <img src="Images/facebook-logo-24.png" alt="Facebook" onclick="location.href='https://www.youtube.com/'">
+      <img src="Images/linkedin-logo-24.png" alt="Linkedin" onclick="location.href='https://www.youtube.com/'">
+    </div>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== TYPED JS ===============-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="script.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--=============== INITIALIZE SWIPER ===============-->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
